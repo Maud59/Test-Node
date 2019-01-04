@@ -1,0 +1,15 @@
+// Ce fichier permet de dire où trouver les sources etc 
+
+{
+      "compilerOptions": {
+            "target":"es2017",// Conversion du code en ecmascript 2017
+            "outDir": "./dist"
+      },
+      "include":[
+            "./src/**/*.ts"
+      ],
+      "exclude" :[
+            "node_modules",
+            "**/*.spec.ts"
+      ]
+}

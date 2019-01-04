@@ -1,0 +1,16 @@
+{
+  "name": "test-node",
+  "version": "1.0.0",
+  "description": "- Titre 1\r - Titre 2\r - Titre 3",
+  "main": "arguments.js",
+  "dependencies": {
+    "markdown-it": "^8.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "md" : "type README.md | markdown-it", // cette commande permet d'insérer notre doc. La ligne est à rajouter.
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
